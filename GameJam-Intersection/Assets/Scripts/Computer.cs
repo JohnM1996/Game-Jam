@@ -40,69 +40,81 @@ public class Computer : MonoBehaviour
 
 	 public void NoAnswer(int num)
 	{
+		gameObject.GetComponent<AudioSource>().PlayOneShot(click);
 		num  = RandEvent;
 		RoomSpawning rSpawn = gameObject.GetComponent<RoomSpawning>();
+		rSpawn.SpawnRoom();
+		rSpawn.T.GetComponentsInChildren<AudioSource>()[1].Stop();
        switch (num)
       {
 		  case 0:
-              rSpawn.SpawnRoom();
               
+              rSpawn.T.GetComponentsInChildren<Light>()[0].enabled = false;
               break;
           case 1:
-              rSpawn.SpawnRoom();
               
+              rSpawn.T.GetComponentsInChildren<AudioSource>()[1].clip = Whispers;
+			  rSpawn.T.GetComponentsInChildren<AudioSource>()[1].Play();
               break;
           case 2:
-             rSpawn.SpawnRoom();
+             
 
               break;
 		  case 3:
-             rSpawn.SpawnRoom();
+             
 
               break;
 		  case 4:
-             rSpawn.SpawnRoom();
-
+             
+             rSpawn.T.GetComponentsInChildren<AudioSource>()[1].clip = Buzzing;
+			  rSpawn.T.GetComponentsInChildren<AudioSource>()[1].Play();
               break;
           default:
-             rSpawn.SpawnRoom();
+             
 
               break;			  
       }
 	  AnswerSelected();
+	   
+
 	}
 	public void YesAnswer(int num)
 	{
+		gameObject.GetComponent<AudioSource>().PlayOneShot(click);
 	num  = RandEvent;
 		RoomSpawning rSpawn = gameObject.GetComponent<RoomSpawning>();
+		rSpawn.SpawnRoom();
+		rSpawn.T.GetComponentsInChildren<AudioSource>()[1].Stop();
       switch (num)
       {
 		  case 0:
-              rSpawn.SpawnRoom();
               
+              rSpawn.T.GetComponentsInChildren<Light>()[0].enabled = true;
               break;
           case 1:
-              rSpawn.SpawnRoom();
+              
               
               break;
           case 2:
-             rSpawn.SpawnRoom();
+             
 
               break;
 		  case 3:
-             rSpawn.SpawnRoom();
+             rSpawn.T.GetComponentsInChildren<AudioSource>()[1].clip = Jazz;
+			 rSpawn.T.GetComponentsInChildren<AudioSource>()[1].Play();
 
               break;
 		  case 4:
-             rSpawn.SpawnRoom();
+             
 
               break;
           default:
-             rSpawn.SpawnRoom();
+             
 
               break;			  
       }
 	  AnswerSelected();
+	   
 	}
 
 	public void AnswerSelected()
