@@ -99,11 +99,11 @@ public class Computer : MonoBehaviour
               rSpawn.T.GetComponentsInChildren<Light>()[0].enabled = true;
               break;
           case 1:
-              
+              Instantiate(Necronomicon, rSpawn.T.transform.position, Quaternion.identity);
               
               break;
           case 2:
-             
+             GameObject newFren = Instantiate(CatPoster, rSpawn.T.transform.position + new Vector3(2.38f,0.854f,-2.142f), Quaternion.identity);
 
               break;
 		  case 3:
@@ -121,8 +121,7 @@ public class Computer : MonoBehaviour
               break;
 
 			   case 5:
-
-              Destroy(GameObject.FindGameObjectWithTag("Plant"));
+           
 			  
             
 

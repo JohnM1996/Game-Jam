@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\Computer.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
      <Compile Include="Assets\Scripts\Event.cs" />
+     <Compile Include="Assets\Scripts\Grabbable.cs" />
      <Compile Include="Assets\Scripts\RoomSpawning.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
