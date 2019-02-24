@@ -1,0 +1,273 @@
+fileFormatVersion: 2
+guid: b07c507ddd3b47546bc782a6edef9665
+timeCreated: 1550965257
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Cieling_Tile
+    100004: Coffie_Table
+    100006: Computer
+    100008: Computer_Mouse
+    100010: Computer_Mouse_Wire
+    100012: Desk
+    100014: Door
+    100016: Door.001
+    100018: Door_Alphanumerical_Plauqe
+    100020: Dooreway_2
+    100022: Dooreway_2.001
+    100024: keybaord+Body
+    100026: KeybaordWire
+    100028: leaves
+    100030: leaves.001
+    100032: Light_Socket
+    100034: Light_Socket.001
+    100036: 'Mug '
+    100038: Mug .001
+    100040: Overhead_Cieling_Light
+    100042: Plane.001
+    100044: Point
+    100046: Point.001
+    100048: Poster
+    100050: Radio
+    100052: Radio_Wire
+    100054: Room_layout_base.000
+    100056: Vase
+    100058: Vase.001
+    100060: Wall_Shelf
+    100062: Wall_To_PCWires
+    400000: //RootNode
+    400002: Cieling_Tile
+    400004: Coffie_Table
+    400006: Computer
+    400008: Computer_Mouse
+    400010: Computer_Mouse_Wire
+    400012: Desk
+    400014: Door
+    400016: Door.001
+    400018: Door_Alphanumerical_Plauqe
+    400020: Dooreway_2
+    400022: Dooreway_2.001
+    400024: keybaord+Body
+    400026: KeybaordWire
+    400028: leaves
+    400030: leaves.001
+    400032: Light_Socket
+    400034: Light_Socket.001
+    400036: 'Mug '
+    400038: Mug .001
+    400040: Overhead_Cieling_Light
+    400042: Plane.001
+    400044: Point
+    400046: Point.001
+    400048: Poster
+    400050: Radio
+    400052: Radio_Wire
+    400054: Room_layout_base.000
+    400056: Vase
+    400058: Vase.001
+    400060: Wall_Shelf
+    400062: Wall_To_PCWires
+    2300000: Cieling_Tile
+    2300002: Coffie_Table
+    2300004: Computer
+    2300006: Computer_Mouse
+    2300008: Computer_Mouse_Wire
+    2300010: Desk
+    2300012: Door
+    2300014: Door.001
+    2300016: Door_Alphanumerical_Plauqe
+    2300018: Dooreway_2
+    2300020: Dooreway_2.001
+    2300022: keybaord+Body
+    2300024: KeybaordWire
+    2300026: leaves
+    2300028: leaves.001
+    2300030: Light_Socket
+    2300032: Light_Socket.001
+    2300034: 'Mug '
+    2300036: Mug .001
+    2300038: Overhead_Cieling_Light
+    2300040: Plane.001
+    2300042: Poster
+    2300044: Radio
+    2300046: Radio_Wire
+    2300048: Room_layout_base.000
+    2300050: Vase
+    2300052: Vase.001
+    2300054: Wall_Shelf
+    2300056: Wall_To_PCWires
+    3300000: Cieling_Tile
+    3300002: Coffie_Table
+    3300004: Computer
+    3300006: Computer_Mouse
+    3300008: Computer_Mouse_Wire
+    3300010: Desk
+    3300012: Door
+    3300014: Door.001
+    3300016: Door_Alphanumerical_Plauqe
+    3300018: Dooreway_2
+    3300020: Dooreway_2.001
+    3300022: keybaord+Body
+    3300024: KeybaordWire
+    3300026: leaves
+    3300028: leaves.001
+    3300030: Light_Socket
+    3300032: Light_Socket.001
+    3300034: 'Mug '
+    3300036: Mug .001
+    3300038: Overhead_Cieling_Light
+    3300040: Plane.001
+    3300042: Poster
+    3300044: Radio
+    3300046: Radio_Wire
+    3300048: Room_layout_base.000
+    3300050: Vase
+    3300052: Vase.001
+    3300054: Wall_Shelf
+    3300056: Wall_To_PCWires
+    4300000: Radio_Wire
+    4300002: Light_Socket.001
+    4300004: Wall_Shelf
+    4300006: Radio
+    4300008: Door_Alphanumerical_Plauqe
+    4300010: keybaord+Body
+    4300012: KeybaordWire
+    4300014: Computer_Mouse_Wire
+    4300016: Computer_Mouse
+    4300018: Door.001
+    4300020: Dooreway_2.001
+    4300022: Door
+    4300024: Dooreway_2
+    4300026: Poster
+    4300028: Vase.001
+    4300030: leaves.001
+    4300032: Mug .001
+    4300034: leaves
+    4300036: Vase
+    4300038: 'Mug '
+    4300040: Overhead_Cieling_Light
+    4300042: Cieling_Tile
+    4300044: Coffie_Table
+    4300046: Plane.001
+    4300048: Light_Socket
+    4300050: Wall_To_PCWires
+    4300052: Room_layout_base.000
+    4300054: Computer
+    4300056: Desk
+    10800000: Point
+    10800002: Point.001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bark
+    second: {fileID: 2100000, guid: 3893c64fd739636499a2963c4be39695, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: dce9c131d14f9334a809822fc8fd98d5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: fa20e764d4c070e4eb4346e0c9820b42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Leaves
+    second: {fileID: 2100000, guid: 6f7f7f5590c6b9a4ba2847d7f3382e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 22080626b55fb7647b4dbb2812c19824, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 517827c6d7de3514c95230026aa70d1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 33eac63780ef1ae4b96275f3781a9ad8, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
