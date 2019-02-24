@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class RoomSpawning : MonoBehaviour 
 {
+	public GameObject Door;
 	public GameObject RoomToSpawn;
     public Vector3 offset;
+	public Vector3 door1Offset;
+
 	public bool IsStartRoom = false;
 	
+	public GameObject T;
 	// Use this for initialization
 	void Start () 
 	{
@@ -23,21 +27,14 @@ public class RoomSpawning : MonoBehaviour
 		
 	}
 
-	void OnTriggerEnter(Collider collision)
-	{
-		if(collision.gameObject.tag == "Player")
-		{
-         SpawnRoom();		 
-		}
-	}
 
 	public void SpawnRoom()
 	{
-     GameObject T = Instantiate(RoomToSpawn, transform.position + offset, transform.rotation);
+     T = Instantiate(RoomToSpawn, transform.position + offset, Quaternion.identity);
+	 
 	 if(IsStartRoom)
 	 {
 		 T.GetComponentInChildren<RoomSpawning>().IsStartRoom = false;
-	 }
-	 Destroy(gameObject);
+	 }	 
 	}
 }

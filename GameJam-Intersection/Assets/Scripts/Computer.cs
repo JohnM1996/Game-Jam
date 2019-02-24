@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class Computer : MonoBehaviour 
 {
+	public GameObject ourDoor;
      public Light CeilingLight;
 	 public GameObject CatPoster;
 	 public GameObject Necronomicon;
@@ -39,49 +40,74 @@ public class Computer : MonoBehaviour
 
 	 public void NoAnswer(int num)
 	{
+		num  = RandEvent;
+		RoomSpawning rSpawn = gameObject.GetComponent<RoomSpawning>();
        switch (num)
       {
+		  case 0:
+              rSpawn.SpawnRoom();
+              
+              break;
           case 1:
+              rSpawn.SpawnRoom();
               
               break;
           case 2:
-             
+             rSpawn.SpawnRoom();
+
               break;
 		  case 3:
-             
+             rSpawn.SpawnRoom();
+
               break;
 		  case 4:
-             
+             rSpawn.SpawnRoom();
+
               break;
           default:
-             
-              break;
+             rSpawn.SpawnRoom();
+
+              break;			  
       }
+	  AnswerSelected();
 	}
 	public void YesAnswer(int num)
 	{
+	num  = RandEvent;
+		RoomSpawning rSpawn = gameObject.GetComponent<RoomSpawning>();
       switch (num)
       {
+		  case 0:
+              rSpawn.SpawnRoom();
+              
+              break;
           case 1:
+              rSpawn.SpawnRoom();
               
               break;
           case 2:
-             
+             rSpawn.SpawnRoom();
+
               break;
 		  case 3:
-             
+             rSpawn.SpawnRoom();
+
               break;
 		  case 4:
-             
+             rSpawn.SpawnRoom();
+
               break;
           default:
-             
-              break;
+             rSpawn.SpawnRoom();
+
+              break;			  
       }
+	  AnswerSelected();
 	}
 
 	public void AnswerSelected()
 	{
 		ComputerScreen.enabled = false;
+		ourDoor.GetComponent<Door>().isLocked = false;
 	}
 }
