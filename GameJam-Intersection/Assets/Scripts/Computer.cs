@@ -5,10 +5,12 @@ using UnityEngine.UI;
 
 public class Computer : MonoBehaviour 
 {
+
 	public GameObject ourDoor;
      public Light CeilingLight;
 	 public GameObject CatPoster;
 	 public GameObject Necronomicon;
+	 public GameObject Plant;
 	 public GameObject Radio;
 
 	 public AudioClip Jazz;
@@ -61,13 +63,18 @@ public class Computer : MonoBehaviour
 
               break;
 		  case 3:
-             
+                          rSpawn.T.GetComponentsInChildren<AudioSource>()[1].clip = Buzzing;
+			  rSpawn.T.GetComponentsInChildren<AudioSource>()[1].Play();
 
               break;
 		  case 4:
+		     
              
-             rSpawn.T.GetComponentsInChildren<AudioSource>()[1].clip = Buzzing;
-			  rSpawn.T.GetComponentsInChildren<AudioSource>()[1].Play();
+
+              break;
+
+		  case 5:
+             
               break;
           default:
              
@@ -105,7 +112,19 @@ public class Computer : MonoBehaviour
 
               break;
 		  case 4:
-             
+
+              GameObject newPlant = Instantiate(Plant, rSpawn.T.transform.position + new Vector3(Random.Range(-3f,3f),1f,Random.Range(-3f,3f)), Quaternion.identity);
+              newPlant.transform.parent = rSpawn.T.transform;
+			  
+            
+
+              break;
+
+			   case 5:
+
+              Destroy(GameObject.FindGameObjectWithTag("Plant"));
+			  
+            
 
               break;
           default:
@@ -121,5 +140,6 @@ public class Computer : MonoBehaviour
 	{
 		ComputerScreen.enabled = false;
 		ourDoor.GetComponent<Door>().isLocked = false;
+		
 	}
 }
