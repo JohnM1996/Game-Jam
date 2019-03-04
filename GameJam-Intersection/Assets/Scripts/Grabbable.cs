@@ -29,11 +29,20 @@ public class Grabbable : MonoBehaviour
 
             if (Physics.Raycast(Player.transform.position, Player.transform.TransformDirection(Vector3.forward), out hit, 5f))
             {
+<<<<<<< HEAD
                 myRB.AddForceAtPosition((Player.transform.forward * 50f * (myRB.mass)), hit.point);
             }
             //myRB.velocity = myRB.velocity + (hit.point * 3);
 
 
+=======
+                Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
+                Debug.Log("Did Hit");
+            }
+            //myRB.velocity = myRB.velocity + (hit.point * 3);
+
+            myRB.AddForceAtPosition((Player.transform.forward * 50f * (myRB.mass)), hit.point);
+>>>>>>> master
         }
 	}
 }
