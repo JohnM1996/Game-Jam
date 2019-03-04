@@ -256,20 +256,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 65233736696440932, guid: 13e4afb69b62a8449944340c1982d62a,
+    - target: {fileID: 114549220925853300, guid: 13e4afb69b62a8449944340c1982d62a,
         type: 2}
-      propertyPath: m_Size.y
-      value: 0.19
+      propertyPath: m_Navigation.m_Mode
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 65518542845641380, guid: 13e4afb69b62a8449944340c1982d62a,
+    - target: {fileID: 114238345189765928, guid: 13e4afb69b62a8449944340c1982d62a,
         type: 2}
-      propertyPath: m_Size.x
-      value: 1.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 65518542845641380, guid: 13e4afb69b62a8449944340c1982d62a,
-        type: 2}
-      propertyPath: m_Center.x
-      value: 0.7
+      propertyPath: m_Navigation.m_Mode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 13e4afb69b62a8449944340c1982d62a, type: 2}

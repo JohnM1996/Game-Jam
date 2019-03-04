@@ -22,7 +22,12 @@ void OnMouseDown()
    if(!isLocked)
  {
 	gameObject.GetComponent<Animator>().speed = 1f;
-	Destroy(gameObject.GetComponents<BoxCollider>()[1]);
+
+            if (gameObject.GetComponents<BoxCollider>()[1] != null)
+            {
+                Destroy(gameObject.GetComponents<BoxCollider>()[1]);
+            }
+	
  }
 }
 	
